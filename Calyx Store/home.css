@@ -1,0 +1,398 @@
+
+ .link{
+  background-attachment: fixed;
+  text-decoration: none;
+  color: #ce4d4d;
+  font-family: sans-serif;
+  font-size: 18px; 
+  transition: all 0.3s ease;
+ }
+
+ .link:hover{
+  font-size: 25px;
+  color: #474747;
+ }
+ 
+ nav{
+  position: sticky;
+  top: 0;    
+  background-color: #8078784b;
+
+ 
+  color: #ffffff;
+  padding: 30px;
+  word-spacing: 20px;
+  text-align: center;
+  font-weight: bold;
+  
+ }
+ 
+ 
+ .space{
+  padding-right: 700px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url("img/drawlap.png");
+  background-size: 400px;
+  
+  
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  animation: bobbing 2s ease infinite alternate;
+  transition: all 0.3s ease;
+ }
+ .space:hover {
+  background-size: 500px;
+}
+ @keyframes bobbing {
+  0% {
+    background-position: center right 90px ;
+    
+  }
+  100% {
+    background-position: center right 120px; 
+    
+  }
+}
+
+.space2{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 700px;
+  background-image: url("img/phdraw.png");
+  background-size: 400px;
+  
+  
+  background-repeat: no-repeat;
+  background-color: #7a2d2d;
+  animation: bob 2s ease infinite alternate;
+  transition: all 0.3s ease;
+ }
+ .space2:hover {
+  background-size: 500px;
+}
+ @keyframes bob {
+  0% {
+    background-position: center left 90px ;
+  }
+  100% {
+    background-position: center left 120px; 
+  }
+}
+
+.space3{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 700px;
+  background-image: url("img/storelogo.png");
+  background-size: 400px;
+  
+  
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  animation: bo 2s ease infinite alternate;
+  transition: all 0.3s ease;
+ }
+ .space3:hover {
+  background-size: 500px;
+}
+ @keyframes bo {
+  0% {
+    background-position: center right 50px ;
+  }
+  100% {
+    background-position: center right 70px; 
+  }
+}
+
+.space4{
+  
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 700px;
+  background-image: url("img/aboutus.jpg");
+  background-size: 400px;
+  
+  
+  background-repeat: no-repeat;
+  background-color: #7a2d2d;
+  animation: b 2s ease infinite alternate;
+  transition: all 0.3s ease;
+ }
+.space4:hover {
+  background-size: 500px;
+}
+ @keyframes b{
+  0% {
+    
+    background-position:  center left 70px ;
+  }
+  100% {
+    background-position: center left 90px; 
+  }
+}
+
+
+
+
+
+.divider{
+  background-color: #812a2a;
+  padding: 50px;
+ }
+
+
+
+
+   *{
+    padding: 0;
+    margin: 0;
+   
+    }
+    body{
+      background-image: url("img/frii.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  .box{
+    background-image: url("img/frii.jpg");
+    
+  
+    min-height: 500px;
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+  .box1{
+    background-image: url("img/Legion.png");
+  
+  border-radius:0px 20px 20px 0px;
+    min-height: 500px;
+
+ 
+  background-attachment: fixed;
+  background-position: below;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+  .box2{
+    background-image: url("img/phoness.jpg");
+    
+  
+    min-height: 500px;
+    
+    border-radius: 20px 0 0 20px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+  }
+  .box3{
+    background-image: url("img/storee.png");
+    
+  
+    min-height: 500px;
+    border-radius:0px 20px 20px 0px;
+ 
+  background-attachment: fixed;
+  background-position: below ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+
+  .box4{
+    background-image: url("img/aboutuss.jpg");
+    
+  
+    min-height: 500px;
+    
+    border-radius: 20px 0 0 20px;
+  background-attachment: fixed;
+  background-position: right ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+  }
+
+  
+
+  
+
+  
+ 
+  .moko{
+   
+    padding-top: 150px;
+    font-family: sans-serif;
+    font-size: 125px;
+    color: #ffffffff;
+    text-align: center;
+     }
+ .moko span{ transition: all  0.3s ease;}
+ .moko span:hover{
+  font-size: 150px;
+  }
+ .moko1{
+  padding-top: 150px;
+  font-family: sans-serif;
+  font-size: 125px;
+  color: #ffffffff;
+  text-align: center;
+  
+
+
+ 
+  }
+.moko1 span{ transition: all 0.3s ease;}
+.moko1 span:hover{
+font-size: 150px;
+
+ 
+ 
+}
+ .bio{
+    font-family: sans-serif;
+     font-size: 20px;
+     text-align: center;
+     margin: top 10px;
+     font-weight: lighter;
+     color: #ffffff;
+     
+
+}
+
+.divider{
+  height: 20px;
+  background-color: #ffffff;
+}
+.moko2{
+  padding-top: 150px;
+  font-family: sans-serif;
+  font-size: 125px;
+  color: #ffffffff;
+  text-align: center;
+  
+
+
+ 
+  }
+.moko2 span{ transition: all 0.3s ease;}
+.moko2 span:hover{
+font-size: 150px;}
+.moko3{
+  padding-top: 150px;
+  font-family: sans-serif;
+  font-size: 125px;
+  color: #ffffffff;
+  text-align: center;
+  
+
+
+ 
+  }
+.moko3 span{ transition: all 0.3s ease;}
+.moko3 span:hover{
+font-size: 150px;}
+
+.moko4{
+  padding-top: 150px;
+  font-family: sans-serif;
+  font-size: 125px;
+  color: #ffffffff;
+  text-align: center;
+}
+.moko4 span{ transition: all 0.3s ease;}
+.moko4 span:hover{
+font-size: 150px;}
+.footer {
+  background-color: #646363;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  font-family: sans-serif;
+}
+
+.footer h2 {
+  font-size: 24px;
+}
+
+
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.icon{
+  padding-left: 590px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+
+
+}
+
+.ic{
+  padding-left: 60px;
+  padding-right: 30px;
+
+  font-size: 22px;
+  transition: all 0.3s ease;
+}
+.ic:hover{
+  color: #7a2d2d;
+}
+.container{
+
+  display: flex;
+
+}
+.p4{
+  padding-top: 15px;
+  padding-left: 90px;
+}
+.p1{
+  padding-top: 5px;
+  padding-left: 0px;
+ 
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.p1 {
+
+ 
+    text-decoration: none;
+    color: #fff;
+    
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+

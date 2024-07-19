@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee1.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Admin Dashboard</title> 
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="adm.jpg" alt="">
+            </div>
+
+            <span class="logo_name">Calyx</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="#">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Dahsboard</span>
+                </a></li>
+                <li><a href="additems.html">
+                    <i class="uil uil-files-landscapes"></i>
+                    <span class="link-name">Add items</span>
+                </a></li>
+                <li><a href="category.html">
+                    <i class="uil uil-chart"></i>
+                    <span class="link-name">Cartegory</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-thumbs-up"></i>
+                    <span class="link-name">Like</span>
+                </a></li>
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+            
+            <img src="admin2.png" alt="">
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Dashboard</span>
+                </div>
+
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class="uil uil-plus"></i>
+                        <span class="text">Add items</span>
+                        <span class="number">77</span>
+                    </div>
+                    <div class="box box2">
+                        <i class="uil uil-angle-double-down"></i>
+                        <span class="text">Category</span>
+                        <span class="number">7</span>
+                    </div>
+                    <div class="box box3">
+                        <i class="uil uil-thumbs-up"></i>
+                        <span class="text">Likes</span>
+                        <span class="number">2000</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity">
+                <div class="title">
+                    <i class="uil uil-clock-three"></i>
+                    <span class="text">Recent Activity</span>
+                </div>
+
+                <div class="activity-data">
+                    <div class="data names">
+                        <span class="data-title">Name</span>
+                        <span class="data-list">Sashi</span>
+                        <span class="data-list">Alongba</span>
+                        <span class="data-list">Supongliba</span>
+                        <span class="data-list">Longshila</span>
+                        
+                    </div>
+                    <div class="data email">
+                        <span class="data-title">Email</span>
+                        <span class="data-list">Sashi@gmail.com</span>
+                        <span class="data-list">Along@gmail.com</span>
+                        <span class="data-list">Supong@gmail.com</span>
+                        <span class="data-list">Longshila@gmail.com</span>
+                    
+                    </div>
+                    <div class="data joined">
+                        <span class="data-title">Joined</span>
+                        <span class="data-list">2023-01-14</span>
+                        <span class="data-list">2023-02-08</span>
+                        <span class="data-list">2023-05-17</span>
+                        <span class="data-list">2023-08-26</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
